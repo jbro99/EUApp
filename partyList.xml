@@ -1,0 +1,45 @@
+<object-stream>
+  <list>
+    <Country>
+      <name>ireland</name>
+      <noMEPs>4</noMEPs>
+      <meps>
+        <Mep>
+          <MEPName>justin</MEPName>
+          <MEPEmail>0876511398</MEPEmail>
+          <MEPPhone>@</MEPPhone>
+          <thePartyList>
+            <parties>
+              <Party>
+                <partyName>r</partyName>
+                <partyLeader>r</partyLeader>
+                <partyGenre>RIGHT</partyGenre>
+                <numLocalReps>6</numLocalReps>
+              </Party>
+            </parties>
+            <count>1</count>
+          </thePartyList>
+        </Mep>
+        <Mep>
+          <MEPName>tt</MEPName>
+          <MEPEmail>098</MEPEmail>
+          <MEPPhone>@.</MEPPhone>
+          <thePartyList reference="../../Mep/thePartyList"/>
+        </Mep>
+      </meps>
+      <count>2</count>
+    </Country>
+    <Country>
+      <name>england</name>
+      <noMEPs>2</noMEPs>
+      <meps/>
+      <count>0</count>
+    </Country>
+    <Country>
+      <name>scotland</name>
+      <noMEPs>6</noMEPs>
+      <meps/>
+      <count>0</count>
+    </Country>
+  </list>
+</object-stream>
